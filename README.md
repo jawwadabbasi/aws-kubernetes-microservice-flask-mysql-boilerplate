@@ -38,7 +38,10 @@ This boilerplate follows a clean, modular structure that separates development a
 ## Folder Structure
 
 ```
-├── README.md
+├── .github
+│   └── workflows
+│       ├── dev.yaml
+│       └── prod.yaml
 ├── dev
 │   ├── Dockerfile
 │   ├── kubeconfig.yaml
