@@ -37,33 +37,32 @@ This boilerplate follows a clean, modular structure that separates development a
 
 ## Folder Structure
 
-.
 ├── README.md
-├── dev/
+├── dev
 │   ├── Dockerfile
 │   ├── kubeconfig.yaml
 │   └── settings.py
-├── prod/
+├── prod
 │   ├── Dockerfile
 │   ├── kubeconfig.yaml
 │   └── settings.py
-└── src/
+└── src
     ├── configure.py
     ├── cron.py
-    ├── includes/
+    ├── includes
     │   ├── common.py
     │   ├── db.py
     │   └── schema.py
     ├── main.py
     ├── requirements.txt
-    ├── services/
+    ├── services
     │   ├── crons.py
     │   └── logger.py
-    ├── v1/
+    ├── v1
     │   ├── api.py
     │   ├── controller.py
     │   └── wrapper.py
-    └── v2/
+    └── v2
         └── controller.py
 
 ---
