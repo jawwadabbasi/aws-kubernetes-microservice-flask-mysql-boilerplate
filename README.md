@@ -37,6 +37,7 @@ This boilerplate follows a clean, modular structure that separates development a
 
 ## Folder Structure
 
+```
 ├── README.md
 ├── dev
 │   ├── Dockerfile
@@ -64,7 +65,7 @@ This boilerplate follows a clean, modular structure that separates development a
     │   └── wrapper.py
     └── v2
         └── controller.py
-
+```
 ---
 
 ## Setting Up AWS & GitHub Secrets
